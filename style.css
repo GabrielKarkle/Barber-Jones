@@ -8,15 +8,24 @@
 body {
     background-color: lightgrey;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 /*---fontes---*/
+
 /*----titulo----*/
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
 /*--paragrafo---*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap');
 
+/*----paletas de cores----
+
+letra header: white
+cor principal (marrom escuro) : #2b1d11
+cor secundaria (marrom claro) : #593d22
+
+*/
 
 
 /*----topo----*/
@@ -26,7 +35,7 @@ header {
     grid-template-rows: 3fr 1fr 1fr;
     grid-template-columns: 3fr  1.5fr;
     background-color: #2b1d11;
-    color: rgb(194, 178, 178);
+    color: white;
     padding-bottom: 7px;
 
     font-family: "Nunito", sans-serif;
@@ -41,9 +50,8 @@ header {
     align-content: center;
     justify-content: end;
 
-    font-size:2.7em ;
+    font-size:2.5em ;
     font-family: "Prata", serif;
-    color: #cfcfcf;
 }
 
 /*----login----*/
@@ -69,7 +77,6 @@ header {
 
 .login a {
     color: white;
-
     text-decoration: none;
     font-size: 16px;
 }
@@ -95,4 +102,11 @@ menu > a:hover {
 
 menu > .contactos {
     border-radius:  0px 5px 5px 0px;
+}
+
+
+main {
+    display: grid;
+    background-color: #bdb9b8;
+    height: 1500px;
 }
