@@ -9,6 +9,8 @@ body {
     background-color: lightgrey;
     height: 100vh;
     width: 100%;
+    height: 1500px;
+    background-color: #918079;
 }
 
 /*----paletas de cores----
@@ -98,10 +100,8 @@ menu > .contactos {
 /*----main 1----*/
 .main1 {
     display: grid;
-    background-color: #918079;
-    height: 1500px;
     grid-template-columns: 1fr 3fr 1fr ;
-    grid-template-rows: 50px 250px 20px 100px 100px;
+    grid-template-rows: 50px 250px 20px 100px;
     justify-items: center;
 }
 .foto1 {
@@ -147,3 +147,41 @@ menu > .contactos {
     background-color: #845936;
     color: #2b1d11;
 }
+
+/*----main2----*/
+
+.main2 {
+    background-color: white;
+    margin: 35px 5px 25px 5px;
+    border-radius: 10px;
+    box-shadow:1px 1px 8px rgba(0, 0, 0, 0.485) ;
+
+}
+.main2 > h1 {
+    width: 370px;
+    height: 45px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    color: #2b1d11;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+.main2> img {
+    width: 150px;
+    height: 160px;
+    float: left;
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, 0.485) ;
+}
+
+.main2 > p {
+    text-align: justify ;
+    padding: 5px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    font-family: "Nunito", Arial;
+}
+
+/*----mis servicios----*/
+
