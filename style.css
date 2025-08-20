@@ -160,6 +160,8 @@ menu > .contactos {
 .main2 > h1 {
     width: 370px;
     height: 45px;
+    font-size: 1.8em;
+    padding-top: 10px;
     text-align: center;
     font-family: "Cinzel", serif;
     color: #2b1d11;
