@@ -64,6 +64,7 @@ header {
     background-color:#593d22 ;
     border-radius: 5px 0px 0px 5px;
     padding: 3px;
+    padding-left: 6px;
     margin-bottom: 0px;
 
 }
@@ -201,7 +202,7 @@ main {
     margin: 120px 10px 120px 10px;
     box-shadow: 1px 1px 5px #0000006a;
     border-radius: 10px;
-    color: #2b1d11;
+    color: #dad0c6;
     row-gap: 10px;
     
 }
@@ -339,15 +340,46 @@ footer {
     line-height: 33px;
     padding: 10px 0px 10px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 footer > a {
     text-decoration: none;
     color: lightblue;
 }
 hr {
-    width: 100px;
+    width: 225px;
     margin-top: -2px;
     border: 0;
     background-color: #956639;
     height: 3px;
 }
+
+/*---mapa---*/
+
+
+.mapa {
+    width: 250px;
+    height: 250px;
+    margin: 25px 0px 25px 0px;
+}
+
+/*---hora---*/
+
+
+.hora {
+    margin-top: 80px;
+}
+
+/*---redes sociais---*/
+
+
+.redsocial {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.whatsapp,  .instagram, .email {
+    margin: 15px 20px 0px 0px;
+}
+
+
+
