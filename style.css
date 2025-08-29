@@ -276,7 +276,7 @@ article > .frase1 {
     text-align: center;
     grid-row: 6 / 7;
     grid-column: 1 / 3;
-    padding-left: 6px;
+
 }
 .img3 {
     grid-row: 7 / 8;
