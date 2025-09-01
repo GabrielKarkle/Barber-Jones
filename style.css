@@ -118,6 +118,12 @@ main {
     grid-area: 2 / 2 / 3 / 3;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.433);
 }
+img#foto1m {
+    display: none;
+}
+img#foto1g {
+    display: none;
+}
 .frase {
     align-content: end;
     grid-area: 2 / 2 / 4 / 3;
@@ -159,20 +165,22 @@ main {
 article {
     background-image: url(imagens/praçajones.png);
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-attachment: fixed;
-    height: 400px;
+    height: 450px;
     box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.427);
     font-family: "Nunito", Arial;
     font-size: 1.2em;
     line-height: 28px;
-
+} 
+article > #posejones2 {
+    display: none;
 }
 article > .frase1 {
     display: inline-block;
-    position: absolute;
-    bottom: -300px;
+    position: relative;
     padding:10px;
+    margin: 60px 15px 60px 15px;
     color: white;
     background-color: rgba(70, 70, 70, 0.585);
    
@@ -182,6 +190,9 @@ article > .frase1 {
 }
 .frase1 > p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+}
+#frase1g {
+    display: none;
 }
 
 
@@ -194,7 +205,7 @@ article > .frase1 {
     grid-template-rows: 50px 25px 75px 25px 75px 25px 75px;
     grid-template-columns: 75px 1fr 1fr;
     margin: 120px 10px 120px 10px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     box-shadow: 1px 1px 5px #0000006a;
     border-radius: 10px;
     color: black;

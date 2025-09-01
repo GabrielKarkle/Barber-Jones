@@ -1,2 +1,145 @@
 @charset "UTF-8";
 
+
+/*smarthphones medios e grandes*/
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #564b44;
+    }
+    .body2{
+        background-color: #918079;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.456);
+        padding-bottom: 120px;
+        width: 80vw;
+        margin: auto;
+        transition-duration: 0.4s;
+    }
+    .main1 > img#foto1m {
+            display: block;
+            grid-area: 2 / 2 / 3 / 3;
+    }
+    .servicioscbp {
+         margin: 120px 30px 120px 30px;
+    }
+}
+
+/*tablets*/
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #564b44;
+    }
+    .body2{
+        background-color: #918079;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.456);
+        padding-bottom: 120px;
+        width: 70vw;
+        margin: auto;
+        transition-duration: 0.4s;
+    }
+    .main1 > img#foto1g {
+            display: block;
+            grid-area: 2 / 2 / 3 / 3;
+    }
+    article {
+        height: 550px;
+        padding-top: 40px;
+    }
+    article > .frase1 {
+        margin:70px;
+    }
+    .servicioscbp {
+         margin: 120px 40px 120px 40px;
+    }
+    hr {
+        transition: 0.5s;
+        width: 280px;
+    }
+    
+}
+
+/*laptop pequenos*/
+
+@media screen and (min-width:1024px) {
+    body {
+        background-color: #564b44;
+    }
+    .body2 {
+        width: 60vw;
+    }
+
+    /*----article----*/
+    article > #frase1g {
+        display: block;
+        display: inline-block;
+        position: relative;
+        padding:10px;
+        margin: 60px 15px 60px 15px;
+        color: white;
+        background-color: rgba(70, 70, 70, 0.585);
+    }
+    #frase1g > h1 {
+    text-align: center;
+    }
+    #frase1g> p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+    }
+    article > .frase1 {
+        display: none;
+    }
+    /*--------------------*/
+
+    .servicioscbp {
+        margin: 120px 60px 120px 60px;
+    }
+        hr {
+        width: 350px;
+    }
+    
+}
+
+/*desktops*/
+
+@media screen and (min-width:1280px) {
+    body {
+        background-color: #564b44;
+    }
+        .servicioscbp {
+        margin: 120px 100px 120px 100px;
+    }
+        hr {
+        width: 450px;
+    }
+    article {
+        background-size: 60%;
+    }
+        article > #frase1g {
+        margin: 0px 80px 0px 80px;
+    }
+    
+}
+
+/*telas grandes*/
+
+@media screen and (min-width:1440px) and (max-width: 1920px) {
+    body {
+        background-color: #564b44;
+    }
+    .servicioscbp {
+        margin: 120px 150px 120px 150px;
+    }
+    article {
+        background-size: 60%;
+        width: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    article > #frase1g {
+        margin: 0px 80px 0px 80px;
+    }
+    hr {
+        width: 550px;
+    }
+    
+}
